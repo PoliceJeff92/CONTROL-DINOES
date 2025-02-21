@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // o la versión de ES que prefieras
+    "module": "commonjs", // o "esnext" si usas módulos ES en tus scripts
+    "outDir": "./dist/scripts", // opcional: para que los scripts compilados se guarden en un directorio separado
+    "esModuleInterop": true // importante para compatibilidad con CommonJS y ES Modules
+  },
+  "include": [
+    "scripts/**/*.ts" // Incluye todos los archivos .ts dentro del directorio scripts
+  ]
+}
